@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lobster", cursive;
+  overflow-y: auto;
+}
+.paticles-js {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+.content {
+  padding: 100px;
+  background-color: white;
+}
+.section {
+  margin-top: 50px;
+  margin-left: 400px;
+}
+.section h2 {
+  color: #a86832;
+  margin-bottom: 10px;
+}
+.icon {
+  cursor: pointer;
+  font-size: 60px;
+  color: #8f8e88;
+  display: inline-block;
+
+  transition: all 0.3s;
+}
+.icon:hover {
+  transform: rotateY(180deg);
+}
+.section p {
+  color: #202020;
+  font-weight: 700;
+}
+.section h2,
+.section p {
+  font-family: "Roboto", sans-serif;
+}
+.detail-info {
+  gap: 10px;
+
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  z-index: 100000;
+  flex-direction: column;
+}
+
+.detail-info h1 {
+  color: #fff;
+  font-size: 100px;
+
+  text-shadow: 8px 8px 2px black;
+  font-weight: 100;
+  text-align: center;
+}
+.detail-info h2 {
+  font-family: "Imperial Script", cursive;
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 100;
+  text-shadow: 7px 5px 4px black;
+}
+.social-media {
+  display: flex;
+  gap: 20px;
+}
+.social-media a {
+  text-decoration: none;
+}
+.btn-social {
+  font-size: 30px;
+  font-size: 30px;
+  color: #fff;
+  width: 55px;
+  height: 55px;
+  border: 3px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+.btn-social:hover {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255);
+  color: #30575f;
+}
+.list-box {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+}
+.box p {
+  margin-top: 10px;
+  text-align: center;
+}
